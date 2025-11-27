@@ -4,7 +4,7 @@ variable "region" {
   default     = "eu-central-1"
 }
 
-variable "key_name" {
+variable "nginx_key_pair_name" {
   description = "Existing AWS EC2 key pair name for SSH"
   type        = string
 }
